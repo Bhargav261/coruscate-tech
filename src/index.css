@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blogView {
+  height: 650px;
+  overflow: auto;
+}
+
+.authorDetailsView {
+  height: 550px;
+  overflow: auto;
+}
+
+.commentView {
+  height: 450px;
+  overflow: auto;
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
